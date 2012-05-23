@@ -1,0 +1,37 @@
+### dbConnect_LE
+
+0.67 - 2012-05-23
+
+* moved repository from SVN to GitHub
+* added: README.md, CHANGELOG and LICENSE
+* removed: info.txt
+
+0.66 - 2011-12-29
+
+* removed: the old WebsiteBaker search feature is no longer supported
+
+0.65 - 2011-07-20
+
+* added: setAutoIncrement() to set start value of TABLE AUTO_INCREMENT
+* grant compatibillity for LEPTON CMS
+
+0.64 - 2011-02-18
+
+* clean up code and fixed some minor problems
+
+0.63 - 2010-11-21
+
+* added: function sqlFoundRows() - executing FOUND_ROWS()
+
+0.62 - 2010-10-24
+
+* fixed: class dbConnectLE called some language constants of dbConnect
+
+0.61 - 2010-10-17
+
+* added global search feature for WebsiteBaker modules and addons
+* clean up code and create documentation with phpDocumentor
+
+0.60 - 2010-10-16
+
+* first release - ported from dbConnect Release 0.36
