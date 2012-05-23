@@ -31,7 +31,7 @@ if (defined('WB_PATH')) {
 $module_directory = 'dbconnect_le';
 $module_name = 'dbConnectLE';
 $module_function = 'snippet';
-$module_version = '0.67';
+$module_version = '0.68';
 $module_platform = '2.8.x';
 $module_author = 'Ralf Hertsch, Berlin (Germany)';
 $module_license = 'GNU General Public License';

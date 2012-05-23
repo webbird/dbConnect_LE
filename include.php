@@ -59,6 +59,7 @@ if (! class_exists ( 'dbConnectLE' )) {
 		protected $indexFields = array ();
 		protected $foreignKeys = array ();
 		protected $csvMustFields = array ();
+		private $table_prefix = TABLE_PREFIX;
 
 		const engine_myisam = 'MyISAM';
 		const engine_innodb = 'InnoDB';
@@ -96,6 +97,23 @@ if (! class_exists ( 'dbConnectLE' )) {
 			$this->isConnected = false;
 		} // __destruct()
 
+		/**
+		 * Return the configured table prefix
+		 *
+		 * @return string
+		 */
+    public function getTablePrefix() {
+      return $this->table_prefix;
+    } // getTablePrefix()
+
+    /**
+     * Set the table prefix to $prefix
+     *
+     * @param string $prefix
+     */
+    public function setTablePrefix($prefix) {
+      $this->table_prefix = $prefix;
+    } // setTablePrefix()
 
 		/**
 		 * Execute MySQL Queries
@@ -174,11 +192,13 @@ if (! class_exists ( 'dbConnectLE' )) {
 		 * Return the table name
 		 *
 		 * The function returns the complete table name including the
-		 * leading TABLE_PREFIX used by WebsiteBaker
+		 * configured table prefix (TABLE_PREFIX by default).
+		 * You can change the table prefix with $this->setTablePrefix($prefix)
+		 *
 		 * @return string tablename
 		 */
 		public function getTableName() {
-			return TABLE_PREFIX . $this->tableName;
+			return $this->getTablePrefix() . $this->tableName;
 		} // getTableName()
 
 
