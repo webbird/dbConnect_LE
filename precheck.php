@@ -29,7 +29,8 @@ if (defined('WB_PATH')) {
 // end include class.secure.php
 
 // Checking Requirements
-$PRECHECK ['WB_VERSION'] = array ('VERSION' => '2.8', 'OPERATOR' => '>=' );
+if (!defined('LEPTON_VERSION'))
+  $PRECHECK ['WB_VERSION'] = array ('VERSION' => '2.8', 'OPERATOR' => '>=' );
 $PRECHECK ['PHP_VERSION'] = array ('VERSION' => '5.2.0', 'OPERATOR' => '>=' );
 
 global $database;

@@ -1,5 +1,13 @@
 ### dbConnect_LE
 
+0.69 - 2012-05-13
+
+* changed version checking for WebsiteBaker
+
+0.68 - 2012-05-25
+
+* internal use only, not published 
+
 0.67 - 2012-05-23
 
 * moved repository from SVN to GitHub
