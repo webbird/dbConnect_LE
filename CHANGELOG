@@ -1,5 +1,9 @@
 ### dbConnect_LE
 
+0.70 - 2012-06-15
+
+* fixed a WebsiteBaker compatibility problem
+
 0.69 - 2012-05-13
 
 * changed version checking for WebsiteBaker
