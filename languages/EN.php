@@ -5,8 +5,8 @@
  *
  * @author Ralf Hertsch <ralf.hertsch@phpmanufaktur.de>
  * @link http://phpmanufaktur.de
- * @copyright 2008 - 2012
- * @license http://www.gnu.org/licenses/gpl.html GNU Public License (GPL)
+ * @copyright 2008 - 2013
+ * @license MIT License (MIT) http://www.opensource.org/licenses/MIT
  */
 
 // try to include LEPTON class.secure.php to protect this file and the whole CMS!

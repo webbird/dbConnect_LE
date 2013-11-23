@@ -1,5 +1,9 @@
 ### dbConnect_LE
 
+0.71 - 2013-11-23
+
+* general program maintenance, no functional changes
+
 0.70 - 2012-06-15
 
 * fixed a WebsiteBaker 2.8.x compatibility problem
@@ -10,7 +14,7 @@
 
 0.68 - 2012-05-25
 
-* internal use only, not published 
+* internal use only, not published
 
 0.67 - 2012-05-23
 
